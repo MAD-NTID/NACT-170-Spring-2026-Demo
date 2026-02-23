@@ -1,0 +1,32 @@
+body{
+    background-image: url('../images/i_am_bruce_wayne.jpg');
+}
+
+.main_heading{
+    background:blue;
+    color:white;
+    text-align: center;
+
+    /*adding text decoration*/
+    text-decoration: underline dotted 2px red;
+}
+
+.big_size{
+    font-size:30pt;
+}
+
+#first_element_h1
+{
+    border-radius:5px;
+}
+
+#left_image{
+    float:right;
+}
+
+.clear
+{
+    clear: both;
+}
+
+
