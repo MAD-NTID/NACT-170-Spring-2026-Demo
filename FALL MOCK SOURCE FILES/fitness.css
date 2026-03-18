@@ -1,0 +1,68 @@
+/* External CSS file for the Spring 2019 NACA 172 Midterm Practical 
+
+ --> Lawson, Matthew, Michael, and Kevin <-- 
+
+Enter your CSS rules below this line */
+
+body {
+   background-color: #cc9900;
+   padding-top: 10px;
+   padding-top: 10px;
+}
+
+header{
+margin-top: 10px;
+margin-bottom: 20px;
+background-color: #ffffff;
+text-align: center;
+box-shadow: 12px 12px 10px 0px #404040;
+border-radius: 10px;
+}
+
+nav{
+    font-size: 1.25em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+}
+
+#container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+main{
+    display: block;
+    font-family: verdana, arial, sans-serif;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: #404040 12px 10px;
+}
+
+footer{
+text-align: center;
+margin-top: 20px;
+font-size: .8em;
+}
+
+ul {
+    margin: 50px;
+    list-style-position: inside;
+}
+
+dt{
+    font-weight: bold;
+}
+
+dd{
+    padding-bottom: 20px;
+}
