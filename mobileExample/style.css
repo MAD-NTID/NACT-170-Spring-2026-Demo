@@ -1,0 +1,48 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    background-color:black;
+    align-items: flex-start;
+    color:white;
+    width:100%;
+    height:auto;
+}
+
+.container div{
+    padding:10px;
+    color:blue;
+    background:grey;
+    margin:10px;
+}
+
+div#item1{
+    order: 2;
+    background:purple;
+}
+
+div#item2{
+    order:1;
+    background:pink;
+}
+
+/** The screen must be at least 600px width to apply this */
+@media (min-width: 600px)
+{
+    body{
+        background:pink;
+    }
+}
+
+@media (min-width:630px) {
+    body{
+        background:black;
+        color:yellow;
+    }
+    
+}
+
+@media(max-width:655px){
+    body{
+        background:yellow;
+    }
+}
