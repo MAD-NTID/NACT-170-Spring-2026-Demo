@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <h1>Video Player</h1>
+        <video width="320" height="240" controls preload="metadata">
+            <source src="assets/videos/bunny.mp4" type="video/mp4"/>
+            <source src="assets/videos/bunny.ogg" type="video/ogg"/>
+            <source src="assets/videos/bunny.webm" type="video/webm"/>
+
+            <!--supporting caption (not required)-->
+            <track
+            label="English"
+            kind="subtitles"
+            srclang="en"
+            src="assets/captions/bigbuckbunny.vtt"
+            default />
+        </video>
+
+        <!--vimeo iframe example-->
+        <iframe title="vimeo-player" src="https://player.vimeo.com/video/347119375?autoplay=1#t=5s&end=10s" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+
+
+        <!--youtube-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NaNcYU4wl9st=5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+</body>
+</html>
